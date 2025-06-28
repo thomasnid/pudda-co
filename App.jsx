@@ -1,19 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Services from './pages/Services';
-import Pay from './pages/Pay';
-import Success from './pages/Success';
 
-const App = () => (
-  <Router>
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/business-formation' element={<Services />} />
-      <Route path='/pay' element={<Pay />} />
-      <Route path='/success' element={<Success />} />
-    </Routes>
-  </Router>
-);
+const App = () => {
+  return (
+    <div style={{ padding: '2rem', fontSize: '24px' }}>
+      Pudda & Co is Live!
+    </div>
+  );
+};
 
 export default App;
