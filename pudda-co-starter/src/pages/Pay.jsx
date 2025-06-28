@@ -1,0 +1,1 @@
+// Pay page with invoice code input
