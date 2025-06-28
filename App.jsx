@@ -1,11 +1,12 @@
 import React from 'react';
 
-const App = () => {
+function App() {
   return (
     <div style={{ padding: '2rem', fontSize: '24px' }}>
-      Pudda & Co is Live!
+      ✅ Pudda & Co is working!
     </div>
   );
-};
+}
 
 export default App;
+
